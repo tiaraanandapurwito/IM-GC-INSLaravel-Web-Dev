@@ -1,5 +1,8 @@
 soal 1 membuat database
-create database myshop
+mysql -u root -h localhost
+create database myshop;
+show databases;
+use myshop;
 
 soal 2 membuat tabel di dalam database
 create table users(
