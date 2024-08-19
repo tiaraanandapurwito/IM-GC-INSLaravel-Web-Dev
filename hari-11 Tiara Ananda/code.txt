@@ -46,8 +46,8 @@ Table cast {
 }
 
 Table movie_cast {
-  movie_id int [ref: > film.id]
+  film_id int [ref: > film.id]
   cast_id int [ref: > cast.id]
   peran varchar
-  primary key (movie_id, cast_id)
+  primary key (film_id, cast_id)
 }
